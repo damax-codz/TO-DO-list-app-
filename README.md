@@ -1,6 +1,6 @@
-# TO-DO-list-app
+# TO-DO-list-app 📑
 to do list app is one of my projects which i created 
-out of ideas.
+out of ideas. 🤓
 
 ### How to use 
 - type a task in the input section  
