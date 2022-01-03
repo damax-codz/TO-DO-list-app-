@@ -12,9 +12,14 @@ var funky=() =>{
     li.style.fontWeight="bolder"
     li.style.marginTop="10px"
     li.style.cursor="pointer"
-    li.onclick= function(){
-        li.style.textDecoration="line-through"
+   li.onclick= function(){
+        ul.removeChild(li)
     }
+    
+    if (div.children.length >= 9) {
+    div.removeChild(ul)
+    }
+    console.log(div.children.length)
     }
     function myfunc(){
         document.getElementById("divo").innerHTML=""
