@@ -1,3 +1,10 @@
+function myFunction(event) {
+    var x = event.charCode;
+   if(x==13){
+       funky()
+   }
+}
+
 var funky=() =>{
     var t = document.getElementById("texto")
     var div = document.getElementById("divo")
