@@ -19,9 +19,10 @@ var funky=() =>{
     li.style.fontWeight="bolder"
     li.style.marginTop="10px"
     li.style.cursor="pointer"
-   li.onclick= function(){
-        ul.removeChild(li)
+    li.onclick= function(){
+        li.style.textDecoration='line-through'
     }
+    
     
     if (div.children.length >= 9) {
     div.removeChild(ul)
